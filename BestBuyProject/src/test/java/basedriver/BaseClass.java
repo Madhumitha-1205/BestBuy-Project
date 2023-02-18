@@ -17,7 +17,7 @@ public class BaseClass extends Utils {
 	@BeforeSuite
 	public void TestInitializer() {
 		extentreportStarter();
-		// driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
 	}
 
 	@BeforeMethod
@@ -39,7 +39,7 @@ public class BaseClass extends Utils {
 			System.out.println("Completed");
 		}
 
-		// driver.close();
+		 driver.close();
 
 	}
 
