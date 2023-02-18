@@ -82,7 +82,7 @@ public class Utils {
 			driver = new ChromeDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-		driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 	}
 
 	// Report Starter
